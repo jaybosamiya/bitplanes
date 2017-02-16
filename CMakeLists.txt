@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( bitplanes )
+find_package( OpenCV REQUIRED )
+add_executable( bitplanes bitplanes )
+target_link_libraries( bitplanes ${OpenCV_LIBS} )
